@@ -1,0 +1,74 @@
+diff -u file1 file2
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It is quite easy. Since you only need to check what is on the terminal, it turns out really useful when you have
+several lines of code.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Because when you are programming, to get what you want, will take you many attempts
+
+git log
+Explains what has changed since last commit
+
+git diff ID1 ID2
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Well you can compare only the main changes in our code. However you always need to keep in mind to do the right commit
+
+git log --stat
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+As we are working on projects, this depends on multiple files(repository)
+
+
+
+git config --global color.ui auto
+To visualize the diff with colours
+
+
+Remember that the changes introduced by this commit will be different from the previous commit
+
+git diff current_ID previous_ID
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+You can explore the history of files and get the main statistics about this repository.
+
+
+
+
+Git Errors and Warnings Solution
+
+Should not be doing an octopus 
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state 
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+Panic! (the 'impossible' happened) 
+This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
+
+Takeaway
+
+We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
+
+
+
+
+git checkout ID
+it's sort like restoring previous version
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Because everything important in your code can be used later. It means, if you want to add/modify an old idea, it is quite easy to implement.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Now I can download repositories and play with it. The commands allows me to find the possible mistakes in projects.

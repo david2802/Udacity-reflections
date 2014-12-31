@@ -1,0 +1,16 @@
+ls -a
+To see if there is a git file -> Repository
+
+To create a new repository:
+git init
+
+git log
+fatal: bad default revision 'HEAD' -> There are any commits yet
+HEAD is the name for the current commit
+
+git status
+Shows which file has changed since the last commit
+
+What happens when you initialize a repository? Why do you need to do it?
+
+It will create a .git folders where you can see that you don't have any commit yet. Just type "git init". 

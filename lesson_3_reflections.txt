@@ -2,4 +2,4 @@ When would you want to use a remote repository rather than keeping all your work
 -->When you are working on a colaborative project, you need to share what you have done with your fellows.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-It is better to do manually because you are the only one who decide to make a logical change. Once you are ready to pull your work, you have to do it manually
+-->It is better to do manually because you are the only one who decide to make a logical change. Once you are ready to pull your work, you have to do it manually

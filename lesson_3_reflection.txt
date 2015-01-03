@@ -1,4 +1,0 @@
-
-When would you want to use a remote repository rather than keeping all your work local?
--->When you are working on a colaborative project, you need to share what you have done with your fellows.
-

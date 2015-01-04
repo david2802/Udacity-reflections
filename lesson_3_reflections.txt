@@ -8,3 +8,6 @@ Describe the differences between forks, clones, and branches. When would you use
 -->You can use forks when you want to create a copy of a repository in your GitHub account. It is possible to clone into your computer and pull/push as well.
 Want to clone a repository? it means to create a copy on your computer from your GitHub or from remote.
 Branches are the possible variations of your project. The main branch is the "master".
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+-->You can compare this state with some changes that you want to introduce in the code.
